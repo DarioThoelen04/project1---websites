@@ -40,7 +40,7 @@ body {
 h1 {
     font-size: 3rem;
 }
-h2, h3 {
+h2, h3, h4, h5 {
     font-size: 2rem;
     text-align: center;
 }
@@ -91,6 +91,32 @@ h2, h3 {
     border: #FF5A36 7px solid;
 }
 .sectie2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.sectie3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.sectie3 .tekst3 {
+    float: left;
+    width: 50%;
+}
+.sectie3 .tekst3-1{
+    width: 45%;
+    align-items: center;
+    float: right;
+}
+.sectie3 .tekst3-1 a {
+    text-decoration: none;
+    color: #FF5A36;
+}
+.sectie3 .tekst3-1 a:hover {
+    color: #FFF;
+}
+
+.sectie3::after {
     content: "";
     display: block;
     clear: both;
